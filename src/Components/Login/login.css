@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+.login-wrapper{
+    height: 100vh;
+   width: 100%; 
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.login-container{
+    height: 500px;
+    width: 60%;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 5px cadetblue;
+    display: flex;
+}
+.login-boxes{
+    height: 500px;
+    width: 50%;
+    padding: 20px;
+    /* background-color: aqua; */
+}
+.login-left{
+    background-image: url("../../asstes/pexels-mikhail-nilov-6963017.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+.login-heading{
+    font-size: 25px;
+    /* margin-bottom: 30px; */
+   
+    /* text-align: center; */
+}
+.login-input{
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 33px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.login-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.login-btn{
+    border: none;
+    background-color:rgb(66, 66, 239) ;
+    color: white;
+    font-size: 15px;
+    /* width: 30%; */
+    /* margin-left: 150px; */
+}
+
+.login-btn:hover{
+ background-color: rgb(12, 133, 34);
+ cursor: pointer;
+ transition: 0.5s;
+}
+.login-input:hover{
+    box-shadow: 3px 3px 3px rgb(156, 156, 156);
+    
+}
+.register-link{
+    font-size: 14 px;
+    margin-top: 10px;
+    text-decoration: none;
+}
